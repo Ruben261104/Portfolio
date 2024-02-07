@@ -458,6 +458,64 @@ section {
   transition: 0.9s;
   background-color: #149ddd;
 }
+.skills-img img {
+  width: 100px; /* Ajustez selon la taille désirée */
+  margin-right: 10px;
+}
+
+.skill-item {
+  margin-bottom: 20px;
+}
+
+.progress-bar-wrap {
+  background: #f0f0f0;
+  border-radius: 10px;
+}
+
+.progress-bar {
+  background: #007bff;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  transition: width 0.3s ease-in-out;
+}
+
+.skills-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* This will space out your images evenly */
+  align-items: center; /* This will center align the images vertically */
+}
+
+.skill-icon {
+  margin: 10px;
+  width: 100px;
+  height: auto;
+}
+
+.python-icon {
+  width: 200px;
+}
+
+.linux-icon {
+  width: 170px;
+}
+
+.html-icon {
+  width: 140px;
+}
+.JavaScript-icon {
+  width: 130px;
+}
+.java-icon {
+  width: 80px;
+}
+.php-icon {
+  width: 140px;
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Resume
